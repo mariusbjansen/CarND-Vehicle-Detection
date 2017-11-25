@@ -121,8 +121,10 @@ Here is the final result
 
 ### Discussion
 
-#### 1. Problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
+#### 1. Problems / issues  faced in my implementation of this project.  Where will the pipeline likely fail? What could be done to make it more robust?
 
-The pipeline fails when there are cars next to each other and the output is just one blob. Tracking plus data association could help
-My additional filter bufferwill fail when the data is more dynamic. Tracking with a predicition could help here
+* Classification is OK but not great. There will be false positive and false negatives -> I: Use more training data, II: search for even better features, III: Maybe using a CNN again
+* The pipeline fails when there are cars next to each other and the output is just one blob. -> Tracking plus data association could help
+* My additional filter bufferwill fail when the data is more dynamic. -> Tracking with a predicition could help here
+* Oncoming cars will be detected sometimes -> Maybe it's not a bug but a feature because hog features look similar. One might just wanted to know the dynamic properties with a negative relative velocity for example.
 

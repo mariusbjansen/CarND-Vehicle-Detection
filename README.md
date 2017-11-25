@@ -1,11 +1,11 @@
-# **Advanced Lane Finding Project** 
+# **Vehicle Detection Project Writeup** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 <img src="output_images/bounding_boxes_found.png" width="480" alt="Test Track Sample" />
 
 Overview of relevant files
 ---
-### CarND-Vehicle-Detection.ipynb --- Jupyter notebook with code and comment describing the project steps
+### CarND-Vehicle-Detection.ipynb --- Jupyter notebook with code and comments describing the project steps
 ### CarND-Vehicle-Detection.md --- Writeup
 ### Folder output_images --- partial result images of jupyter notebook
 * bounding_boxes_found.png - SVC applied (one set of sliding parameters used) found bounding boxes
