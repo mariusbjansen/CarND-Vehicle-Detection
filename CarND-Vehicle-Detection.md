@@ -99,7 +99,7 @@ Ultimately I searched on my set of scales defined in all_search_windows using YC
 
 ### Video Implementation
 
-#### 1. Here's a [link to my video result](./output_images/project_video.mp4)
+#### 1. Here's a [link to my video result](./output_images/projct_output.mp4)
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
